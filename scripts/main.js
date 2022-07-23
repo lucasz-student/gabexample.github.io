@@ -4,10 +4,10 @@ let myHeading = document.querySelector('h1');
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
-  if (mySrc === 'C:/Users/lucas/OneDrive/Desktop/web-projects/test-site/images/gabriel.jpg') {
-    myImage.setAttribute('src', 'C:/Users/lucas/OneDrive/Desktop/web-projects/test-site/images/lol.png')
+  if (mySrc === 'images\gabriel.jpg') {
+    myImage.setAttribute('src', 'images\lol.png')
   } else {
-    myImage.setAttribute('src', 'C:/Users/lucas/OneDrive/Desktop/web-projects/test-site/images/gabriel.jpg')
+    myImage.setAttribute('src', 'images\gabriel.jpg') 
   }
 }
 
