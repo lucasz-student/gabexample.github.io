@@ -1,0 +1,71 @@
+html {
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+a {
+  font-size: 15px;
+}
+
+html {
+  background-color: #f8f3e3;
+}
+
+body {
+  width: 600px;
+  /* body 600 px wide*/
+  margin: 0 auto;
+  /* first value affects top and botton, second affects right and left*/
+  /*auto makes the left and right margins even*/
+  background-color: #f9e8b1;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #f9e8b1;
+  text-shadow: 3px 3px 1px black;
+  /* first pixel value is horizontal offset(how far it moves across)*/
+  /* second is vertical*/
+  /* third is blur radius, larger means more fuzzy shadow*/
+  /* fourth is vase color*/
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* select multiple items*/
+
+/*property: property value*/
+
+/*p is the selector*/
+
+/*the whole strcture is the ruleset*/
+
+/* the selector defines the elemens changed by the style*/
+
+/*declaration: includes the ruleset*/
+
+/*properties are ways you can style an HTML element, like color*/
+/*property values are assinged to properties*/
