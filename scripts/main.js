@@ -5,9 +5,9 @@ let myHeading = document.querySelector('h1');
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
   if (mySrc === 'images\gabriel.jpg') {
-    myImage.setAttribute('src', 'images\lol.png')
+    myImage.setAttribute('src', 'images/lol.png')
   } else {
-    myImage.setAttribute('src', 'images\gabriel.jpg') 
+    myImage.setAttribute('src', 'images/gabriel.jpg') 
   }
 }
 
